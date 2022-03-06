@@ -162,6 +162,17 @@ a.playnow:hover {
     background: #F7ECDE;
 }
 
+
+h7 {
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+    color: #F6F6F6;
+}
+
+
+/* end of section home */
+
 p {
     display: flex;
     justify-content: flex-start;
@@ -185,23 +196,6 @@ h5 {
     padding-left: 50px;
     padding-top: 0px;
 }
-
-
-
-h7 {
-    display: flex;
-    justify-content: center;
-    font-size: 15px;
-    color: #F6F6F6;
-    font-weight: 800;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: #F6F6F6;
-    width: 100%;
-    line-height: 50px;
-    padding-top: 0px;
-}
-
-
 
 
 .games {
@@ -243,6 +237,8 @@ h7 {
     right: 100px;
 }
 
+
+/* end of section the games*/
 .features {
     width: 100%;
     height: 100vh;
@@ -304,6 +300,9 @@ h11 {
     padding-top: 20px;
 }
 
+
+
+/* end of section features*/
 .system {
     width: 100%;
     height: 100vh;
@@ -339,7 +338,6 @@ h14 {
     position: absolute;
     left: -150px;
     max-width: 600px;
-    max-height: 50%;
     margin-left: 350px;
 }
 
@@ -348,7 +346,7 @@ h14 {
     color: #FBB341;
     font-style: normal;
     font-size: 1.5rem;
-    padding-top: 10px;
+    padding-top: 0px;
 }
 
 .req-info2 {
@@ -366,7 +364,7 @@ h14 {
     border: #212226 1px solid !important;
 }
 
-
+/* end of section sysreq*/
 .score {
     width: 100%;
     height: 100vh;
@@ -383,14 +381,14 @@ h14 {
 
 .score-left-side {
     position: absolute;
-    top: 2700px;
+    top: 2500px;
     left: 10px;
 }
 
 
 .score-right-side {
     position: absolute;
-    top: 2700px;
+    top: 2450px;
     left: 800px;
 }
 
@@ -517,15 +515,15 @@ h14 {
 .gamer-pic {
     border-radius: 50%;
     box-shadow: 8px 4px #F9B23E;
-    margin-right: 0.5rem;
+    margin-right: 10px;
 
 }
 
 .gamer-name {
-    margin-bottom: 0.1rem !important;
+    margin-bottom: 1px !important;
 }
 
-
+/* end of section top scores*/
 .footer {
     width: 100%;
     height: 100%;
@@ -548,7 +546,7 @@ h14 {
 
 .footer-content-info {
     position: absolute;
-    top: 3350px;
+    top: 3000px;
     font-size: 20px;
     
 }
@@ -556,18 +554,18 @@ h14 {
 .footer-content-call1 {
     font-size: 50px;
     position: absolute;
-    top: 3420px;
+    top: 3100px;
 }
 
 .footer-content-call2 {
     position: absolute;
-    top: 3470px;
+    top: 3150px;
     font-size: 50px;
 }
 
 .footer-content-main {
     position: absolute;
-    top: 3550px;
+    top: 3250px;
     font-size: 18px;
     line-height: 20px;
     text-align: justify;
@@ -673,6 +671,8 @@ hr {
 .footer-credit-link a:hover {
     color: #F9B23E;
 }
+
+/* end of section footer*/
 
 @media screen and (max-width: 754px) {
     html, body {
